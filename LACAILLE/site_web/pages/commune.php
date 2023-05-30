@@ -50,7 +50,7 @@ include '../inc/header.php';
   $ville_nom = $ville_data[0];
   $ville_code_postal = $ville_data[1];
 
-  $apiKey = '9e820b8cdec17e18f975f12f9e470977';
+  $apiKey = '';
 
   function get_current_day_weather($forecast_data) {
       $current_day = date("Y-m-d");
